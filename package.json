@@ -5,15 +5,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean:reports": "rimraf cypress/reports/mochawesome && rimraf cypress/reports/html",
-    "test:login": "npm run clean:reports && cypress run --spec \"cypress/e2e/Login.cy.js\"",
-    "test:search": "cypress run --spec \"cypress/e2e/Search.cy.js\"",
-    "test:cart": "cypress run --spec \"cypress/e2e/Cart.cy.js\"",
-    "test:paymentflow": "cypress run --spec \"cypress/e2e/PaymentFlow.cy.js\"",
-    "test:guestcheckout": "cypress run --spec \"cypress/e2e/GuestCheckout.cy.js\"",
-    "test:productdetail": "cypress run --spec \"cypress/e2e/ProductDetail.cy.js\"",
+    "test:login": "npm run clean:reports && cypress run --spec \"cypress/e2e/Login.cy.js\" --reporter mochawesome --reporter-options overwrite=false,timestamp=iso",
+    "test:search": "cypress run --spec \"cypress/e2e/Search.cy.js\" --reporter mochawesome --reporter-options overwrite=false,timestamp=iso",
+    "test:cart": "cypress run --spec \"cypress/e2e/Cart.cy.js\" --reporter mochawesome --reporter-options overwrite=false,timestamp=iso",
+    "test:paymentflow": "cypress run --spec \"cypress/e2e/PaymentFlow.cy.js\" --reporter mochawesome --reporter-options overwrite=false,timestamp=iso",
+    "test:guestcheckout": "cypress run --spec \"cypress/e2e/GuestCheckout.cy.js\" --reporter mochawesome --reporter-options overwrite=false,timestamp=iso",
+    "test:productdetail": "cypress run --spec \"cypress/e2e/ProductDetail.cy.js\" --reporter mochawesome --reporter-options overwrite=false,timestamp=iso",
     "report:merge": "mochawesome-merge cypress/reports/mochawesome/*.json > cypress/reports/output.json",
     "report:generate": "marge cypress/reports/output.json -f report -o cypress/reports/html",
-    "report:all": "npm run report:merge && npm run report:generate"
+    "report:all": "npm run report:merge && npm run report:generate",
+    "test:all": "npm run test:login && npm run test:search && npm run test:cart && npm run test:paymentflow && npm run test:guestcheckout && npm run test:productdetail"
   },
   "keywords": [],
   "author": "",
