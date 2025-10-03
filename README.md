@@ -1,2 +1,2 @@
 # kitapsepeti-cypress-e2e
-Cypress kullanılarak Page Object Model (POM) mimarisiyle geliştirilmiş Kitapsepeti.com E2E test otomasyon projesi.
+Kitapsepeti.com E2E test automation project developed using Cypress and the Page Object Model (POM) architecture.
