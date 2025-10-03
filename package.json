@@ -1,0 +1,31 @@
+{
+  "name": "kitapsepeti_otomasyon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean:reports": "rimraf cypress/reports/mochawesome && rimraf cypress/reports/html",
+    "test:login": "npm run clean:reports && cypress run --spec \"cypress/e2e/Login.cy.js\"",
+    "test:search": "cypress run --spec \"cypress/e2e/Search.cy.js\"",
+    "test:cart": "cypress run --spec \"cypress/e2e/Cart.cy.js\"",
+    "test:paymentflow": "cypress run --spec \"cypress/e2e/PaymentFlow.cy.js\"",
+    "test:guestcheckout": "cypress run --spec \"cypress/e2e/GuestCheckout.cy.js\"",
+    "test:productdetail": "cypress run --spec \"cypress/e2e/ProductDetail.cy.js\"",
+    "report:merge": "mochawesome-merge cypress/reports/mochawesome/*.json > cypress/reports/output.json",
+    "report:generate": "marge cypress/reports/output.json -f report -o cypress/reports/html",
+    "report:all": "npm run report:merge && npm run report:generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^15.2.0",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "cypress-real-events": "^1.15.0",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.3.0",
+    "rimraf": "^6.0.1"
+  }
+}
+

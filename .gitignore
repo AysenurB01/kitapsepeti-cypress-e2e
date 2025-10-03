@@ -1,0 +1,12 @@
+# Node Modules
+/node_modules
+
+# Cypress Cache/Output
+/cypress/videos
+/cypress/screenshots
+/cypress/reports/mochawesome/
+/cypress/reports/html/
+
+# Diğer
+npm-debug.log
+.DS_Store
