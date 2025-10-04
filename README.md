@@ -74,6 +74,6 @@ Projenin çıktıları, kabul kriterleri, senaryoları ve başarı kanıtları a
 
 - [📄 User Story Kriterleri](https://docs.google.com/spreadsheets/d/1yI188XeFEMgtu2LrL9QDRiNO8rF1pnPFFAomGV-uI-0/edit?usp=sharing) **—** Proje gereksinimlerinin detaylı listesi.
 - [📄 Test Senaryoları](https://docs.google.com/spreadsheets/d/1kO7rVFXAK4pEAtFeZYSg857EQROckgzAxzwClk2Gqyo/edit?usp=sharing) **—** (User Story) Kabul Kriterleri temel alınarak hazırlanan detaylı test senaryoları.
-- [🔗 HTML Test Raporu](https://github.com/AysenurB01/kitapsepeti-cypress-e2e/blob/main/cypress/reports/html/report.html) **—** Tüm testlerin başarıyla geçtiğini gösteren, Mochawesome tarafından oluşturulmuş sonuç raporu.
+- [🔗 HTML Test Raporu](https://aysenurb01.github.io/kitapsepeti-cypress-e2e/cypress/reports/html/report.html) **—** Tüm testlerin başarıyla geçtiğini gösteren, Mochawesome tarafından oluşturulmuş sonuç raporu.
 
 ---
