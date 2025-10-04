@@ -1,21 +1,18 @@
 # kitapsepeti-cypress-e2e
 
-Kitapsepeti.com Cypress ve Page Object Model (POM) mimarisi kullanılarak geliştirilen uçtan uca test otomasyon projesi.
+Bu proje, bir e-ticaret uygulamasının temel kullanıcı akışlarını kapsayan kritik senaryoları; Cypress ve Page Object Model (POM) mimarisi kullanılarak geliştirilen uçtan uca test otomasyon projesidir.
 
 ---
 
-## 💡 Proje Açıklaması ve Özeti
+## 💡 Proje Özeti
 
-Bu proje, bir e-ticaret uygulamasının temel kullanıcı akışlarını (**Login, Ürün Arama, Sepet Yönetimi, Ödeme**) kapsayan kritik senaryoları otomatik olarak test etmek amacıyla hazırlanmıştır. Projede **sürdürülebilir** ve **kolay genişletilebilir** bir otomasyon altyapısı kurulmuştur.
-
-### Ana Test Akışları
 * **Login Testi** (Pozitif/Negatif Senaryolar)
 * **Ürün Arama ve Filtreleme**  (Pozitif/Negatif Senaryolar)
 * **Ürün Detay Sayfası Görüntüleme**
 * **Sepet Yönetimi ve Kontrolü** (Ekleme/Silme/Güncelleme)
 * **Ödeme ve Sipariş Onayı** (Pozitif/Negatif Senaryolar)
 * **Misafir Olarak Satın Alma İşlemleri** (Pozitif/Negatif Senaryolar)
-* **Mimari:** Testler, sektör standardı olan **Page Object Model (POM)** yapısına uygun olarak yazılmıştır.
+* **Mimari:** Testler, Page Object Model **(POM)** yapısına uygun olarak yazılmıştır.
 * **Teknik Detay:** Tekrarlanan adımların (Örn: "Her testten önce Login olma") kod tekrarını önlemek ve bakımı kolaylaştırmak için test dosyalarında **Mocha Hooks (`beforeEach`)** metodu etkin olarak kullanılmıştır.
 
 ---
@@ -36,6 +33,7 @@ KITAPSEPETI_OTOMASYON
 ├── pages/             -> Page Object Model (Element ve Aksiyon Metotları)
 ├── package.json       -> Proje bağımlılıkları ve çalıştırma komutları
 └── README.md
+```
 
 ---
 
@@ -45,7 +43,7 @@ Bu projeyi yerel ortamda çalıştırmak ve raporları almak için aşağıdaki 
 
 1.  **Projeyi Klonlama:**
     ```bash
-    git clone [https://github.com/AysenurB01/kitapsepeti-cypress-e2e.git](https://github.com/AysenurB01/kitapsepeti-cypress-e2e.git)
+    git clone https://github.com/AysenurB01/kitapsepeti-cypress-e2e.git
     ```
 2.  **Bağımlılıkları Yükleme:** Proje klasörüne girin ve gerekli tüm NPM paketlerini kurun.
     ```bash
@@ -74,11 +72,8 @@ Bu projeyi yerel ortamda çalıştırmak ve raporları almak için aşağıdaki 
 
 Projenin çıktıları, kabul kriterleri, senaryoları ve başarı kanıtları aşağıdaki dokümanlarda mevcuttur.
 
-| Belge Adı | Açıklama | Bağlantı |
-| :--- | :--- | :--- |
-| **User Story Kriterleri** | Proje gereksinimlerinin ve kabul kriterlerinin listesi. | **[https://docs.google.com/spreadsheets/d/1yI188XeFEMgtu2LrL9QDRiNO8rF1pnPFFAomGV-uI-0/edit?usp=sharing]** |
-| **Test Senaryoları** | (User Story) Kabul Kriterleri temel alınarak hazırlanan detaylı test senaryoları. | **[https://docs.google.com/spreadsheets/d/1kO7rVFXAK4pEAtFeZYSg857EQROckgzAxzwClk2Gqyo/edit?usp=sharing]** |
-| **HTML Test Raporu** | Tüm testlerin başarıyla geçtiğini gösteren Mochawesome tarafından oluşturulmuş tekil rapor. | **[https://drive.google.com/file/d/1wxM4PgdXyRXbh5IYsxXUHkL5VwjpWjWU/view?usp=sharing]** |
-| **Proje Sunumu** | Projenin özeti, zorluklar ve çözümlerin anlatıldığı sunum slaytları. | **[SUNUM SLAYT LİNKİNİZ BURAYA]** |
+- [📄 User Story Kriterleri](https://docs.google.com/spreadsheets/d/1yI188XeFEMgtu2LrL9QDRiNO8rF1pnPFFAomGV-uI-0/edit?usp=sharing) **—** Proje gereksinimlerinin detaylı listesi.
+- [📄 Test Senaryoları](https://docs.google.com/spreadsheets/d/1kO7rVFXAK4pEAtFeZYSg857EQROckgzAxzwClk2Gqyo/edit?usp=sharing) **—** (User Story) Kabul Kriterleri temel alınarak hazırlanan detaylı test senaryoları.
+- [🔗 HTML Test Raporu](https://drive.google.com/file/d/1wxM4PgdXyRXbh5IYsxXUHkL5VwjpWjWU/view?usp=sharing) **—** Tüm testlerin başarıyla geçtiğini gösteren, Mochawesome tarafından oluşturulmuş sonuç raporu.
 
 ---
