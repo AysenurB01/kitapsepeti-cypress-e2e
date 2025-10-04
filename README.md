@@ -39,7 +39,7 @@ KITAPSEPETI_OTOMASYON
 
 ## ⚙️ Kurulum ve Çalıştırma
 
-Bu projeyi yerel ortamda çalıştırmak ve raporları almak için aşağıdaki adımları sırasıyla uygulayın:
+Bu proje, test koşum ve raporlama işlemlerini kolaylaştırmak için **'package.json'** dosyasında özel **NPM Scriptleri** kullanmaktadır. Testler ve raporlar bu scriptler aracılığıyla çalıştırılır. Aşağıdaki adımları sırasıyla uygulayın:
 
 1.  **Projeyi Klonlama:**
     ```bash
@@ -75,5 +75,7 @@ Projenin çıktıları, kabul kriterleri, senaryoları ve başarı kanıtları a
 - [📄 User Story Kriterleri](https://docs.google.com/spreadsheets/d/1yI188XeFEMgtu2LrL9QDRiNO8rF1pnPFFAomGV-uI-0/edit?usp=sharing) **—** Proje gereksinimlerinin detaylı listesi.
 - [📄 Test Senaryoları](https://docs.google.com/spreadsheets/d/1kO7rVFXAK4pEAtFeZYSg857EQROckgzAxzwClk2Gqyo/edit?usp=sharing) **—** (User Story) Kabul Kriterleri temel alınarak hazırlanan detaylı test senaryoları.
 - [🔗 HTML Test Raporu](https://drive.google.com/file/d/1wxM4PgdXyRXbh5IYsxXUHkL5VwjpWjWU/view?usp=sharing) **—** Tüm testlerin başarıyla geçtiğini gösteren, Mochawesome tarafından oluşturulmuş sonuç raporu.
+  
+> **NOT:** Raporun içeriğini görüntüleyebilmek için linkteki dosyayı bilgisayarınıza **indirip** herhangi bir modern internet tarayıcısı (Chrome, Edge, vb.) ile açmanız gerekmektedir. Google Drive, HTML dosyalarını direkt önizlemeyi desteklememektedir.
 
 ---
