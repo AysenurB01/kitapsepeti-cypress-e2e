@@ -77,3 +77,19 @@ Projenin çıktıları, kabul kriterleri, senaryoları ve başarı kanıtları a
 - [🔗 HTML Test Raporu](https://aysenurb01.github.io/kitapsepeti-cypress-e2e/cypress/reports/html/report.html) **—** Tüm testlerin başarıyla geçtiğini gösteren, Mochawesome tarafından oluşturulmuş sonuç raporu.
 
 ---
+
+## Cypress Run & Report Screenshots
+
+![US01](screenshots/qE7ayDtS6T.png)
+
+![US02](screenshots/teS80Iqz6W.png)
+
+![US03](screenshots/JuSMnNAEyp.png)
+
+![US04](screenshots/Wf1i31aDWC.png)
+
+![US05](screenshots/crzEGSrOxi.png)
+
+![US06](screenshots/Gw1TrXamkD.png)
+
+---
