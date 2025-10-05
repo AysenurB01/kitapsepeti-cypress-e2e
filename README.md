@@ -6,12 +6,13 @@ Bu proje, bir e-ticaret uygulamasının temel kullanıcı akışlarını kapsaya
 
 ## 💡 Proje Özeti
 
-* **Login Testi** (Pozitif/Negatif Senaryolar)
-* **Ürün Arama ve Filtreleme**  (Pozitif/Negatif Senaryolar)
+* **Login Testi** 
+* **Ürün Arama ve Filtreleme**  
 * **Ürün Detay Sayfası Görüntüleme**
 * **Sepet Yönetimi ve Kontrolü** (Ekleme/Silme/Güncelleme)
-* **Ödeme ve Sipariş Onayı** (Pozitif/Negatif Senaryolar)
-* **Misafir Olarak Satın Alma İşlemleri** (Pozitif/Negatif Senaryolar)
+* **Ödeme ve Sipariş Onayı** 
+* **Misafir Olarak Satın Alma İşlemleri**
+* **Test Framework:** Cypress
 * **Mimari:** Testler, Page Object Model **(POM)** yapısına uygun olarak yazılmıştır.
 * **Teknik Detay:** Tekrarlanan adımların (Örn: "Her testten önce Login olma") kod tekrarını önlemek ve bakımı kolaylaştırmak için test dosyalarında **Mocha Hooks (`beforeEach`)** metodu etkin olarak kullanılmıştır.
 
